@@ -1,0 +1,64 @@
+@media screen and (max-width 1600px) {
+	.centriranje{
+			width:80%;
+		margin:0 10%;
+	}
+	.meni{
+		width:650px;
+		float:right;
+		margin:auto 0;
+	}
+	.meni>ul>li{
+		float:left;
+		margin-left:20px;
+		font-size:25px;
+	}
+	.logo>a>h1{
+		font-size:35px;
+	}
+	#cover{
+		height:450px;
+	}
+	#reklama{
+		width:60%;
+	}
+	#onama-sadrzaj{
+		padding:10px 0;
+	}
+	#onama-sadrzaj>h2, p{
+		text-align:left;
+	}
+	#onama-sadrzaj>h2{
+		font-size:25px;
+	}	
+	#onama-sadrzaj>p{
+		font-size:15px;
+		text-indent:15px;
+	}
+	.popust{
+		margin-top:180px;
+		width:50%;
+		left:0%;	
+	}
+	.opis-popusta{
+		width:100%;
+		padding:40px 60px;
+		background-color:rgba(194, 194, 194,0.7);
+		position:absolute;
+		top:130px;
+		left:70%;
+		letter-spacing:1px;
+	}		
+}
+
+@media screen and (max-width: 1200px){
+
+	.logo>a>h1{
+	font-size:25px;
+	}
+	.meni{
+	width:350px;
+	float:left;
+	margin:auto 0;
+
+}

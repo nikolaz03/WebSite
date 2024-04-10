@@ -1,0 +1,555 @@
+*{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	text-decoration:none;
+	font-family: 'Acme', sans-serif;
+	/*font-family: 'Dancing Script', cursive;*/
+	word-spacing:10px;
+	border-radius:15px 0 15px 15px;
+}
+body{
+	background-image:url(../img/pozadina2.png);
+
+}
+
+header{
+	border-radius:0px 0px 15px 15px;
+	width:100%;
+	background-color:rgba(255,255,255,0.65);
+	position:fixed;
+	z-index:100;
+	top:0%;
+	padding:2% 0;
+	transition:background 10s;
+	transition-duration: 0.3s;
+}
+header:hover{
+	background:#fff;
+}
+.centriranje{
+	width:70%;
+	margin:0 15%;
+}
+.logo{	
+	float:left;
+}
+.logo>a>h1{
+	color:#daa45f;
+	font-size:60px;
+	font-weight:bold;
+	font-family: 'Dancing Script', cursive;
+}
+h1>span{
+	color:#f4e4c1;
+}
+.meni{
+	width:65%;
+	float:right;
+	margin:auto 0;
+}
+.centriranje>.meni>ul{
+	float:right;
+	margin-top:17px;
+}
+.centriranje>.meni>ul>li{
+	border-bottom:2px dashed #bfb69b;
+	float:left;
+	margin-left:30px;
+	font-size:30px;
+}
+.centriranje>.meni>ul>li>a:hover{
+	color:#bfb69b;
+	border-top:2px dashed #bfb69b;
+}
+.centriranje>.meni>ul>li>a{
+	color:#daa45f;
+	font-family: 'Dancing Script', cursive;
+}
+.cistac{
+	clear:both;
+}
+#cover{
+	width:100%;
+	background-image:url(../img/tretmani-cover2.jpg);
+	height:650px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0px -100px;	
+}
+#reklama{
+	background-color:rgba(245, 234, 201,0.97);
+	width:50%;
+	padding:140px 0px;
+	margin:0 auto;
+	position:relative;
+	top:-220px;*/
+}
+#reklama>p, #reklama>h1{
+	color:#fff;
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	font-size:40px;
+	
+}
+#reklama>h1{
+	font-size:80px;
+}
+#onama{
+	width:100%;
+	background-image:url(../img/onama-background.png);
+	background-repeat:repat;
+}
+#onama-sadrzaj{
+	width:100%;
+	padding:50px 0;
+	padding-top:10px;
+}
+#onama-sadrzaj>h2, p{
+	text-align:right;
+	color:rgba(250, 250, 250,1.0);
+}
+#onama-sadrzaj>h2{
+	font-family: 'Dancing Script', cursive;
+	font-size:35px;
+	margin-bottom:20px;
+	text-align:center;
+}	
+#onama-sadrzaj>p{
+	font-size:20px;
+	text-indent:35px;
+	text-align:left;
+}
+#onama-sadrzaj>p>a{
+	color:#daa45f;
+}
+.popust{
+	margin-top:230px;
+	width:35%;
+	float:left;
+	position:relative;
+	top:0;
+	left:10%;
+	
+}
+.popust>h2{
+	font-family: 'Dancing Script', cursive;
+	font-weight:bold;
+	font-size:45px;
+	text-align:center-left;
+	color:#daa45f;
+	margin-bottom:20px;
+}
+.popust>img{
+	width:80%;
+}
+.opis-popusta{
+	width:100%;
+	padding:60px 90px;
+	background-color:rgba(194, 194, 194,0.7);
+	position:absolute;
+	top:130px;
+	left:70%;
+	letter-spacing:1px;
+}
+.opis-popusta>p{
+	font-size:20px;
+	text-align:left;
+}
+.centriranje>h2, #zakazte-tretman>h2{
+	text-align:center;
+	font-size:70px;
+	margin:190px 0 30px 0;
+	color:#daa45f;
+	font-family: 'Dancing Script', cursive;
+}
+/*#kolone{ 
+	margin-top:20px;
+	padding-bottom:30px;
+	background-color:rgba(194, 194, 194,0.2);
+}*/
+#kolone{
+	margin-top:20px;
+	padding-bottom:30px;
+	background-color:rgba(194, 194, 194,0.2);
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content:center;
+}
+/*.kolona{
+	width:30.6%;
+	float:left;
+	margin-left:2%;
+}*/
+.dvojka{
+	margin:0 2.5%;
+}
+.kocka{
+	/*width:100%;*/
+	border-radius:15px;
+	width:30%;
+	background-color:#f5e8c7;
+	padding-bottom:20px;
+	margin-top:30px;
+}
+/*nase usluge*/
+.kocka>a>h3{
+	padding:10px;
+	color:rgba(194, 194, 194,1.0);
+	font-size:30px;
+	font-family: 'Acme', sans-serif;
+	transition-property: font-size;
+	transition-duration: 1s;
+}
+.kocka>p{
+	word-spacing:5px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:20px;
+}
+.kocka>a>h3:hover{
+	color:#daa45f;
+	font-size:35px;
+}
+#masaza-vrata, #piling-lica, #zatezanje-lica, #izbeljivanje-zuba, #madero-terapija, #trajna-sminka, #masaza-tela, #laserska-epilacija, #manikir-pedikir{
+	padding:115px 0;
+	background-repeat:no-repat;
+	background-size:100%;
+	background-position:0 85%;
+	border-radius:10px 10px 0 0;
+} 
+#izbeljivanje-zuba{
+	background-image:URL("../img/izbeljivanje-zuba.jpg");	
+}
+#masaza-vrata{
+	background-image:URL("../img/masaza-vrata.jpg");
+}
+#piling-lica{
+	background-image:URL("../img/piling-lica4.jpg");
+} 
+#zatezanje-lica{
+	background-image:URL("../img/zatezanje-lica.jpg");
+} 
+#madero-terapija{
+	background-image:URL("../img/madero-terapija.jpg");
+}
+#trajna-sminka{
+	background-image:URL("../img/trajna-sminka.jpg");
+
+}
+#masaza-tela{
+	background-image:URL("../img/masaza-tela.jpg");
+
+}
+#laserska-epilacija{
+	background-image:URL("../img/laserska-epilacija.jpg");
+
+}
+#manikir-pedikir{
+	background-image:URL("../img/manikir-pedikiri.jpg");
+
+}
+#zakazite-termin{
+	width:100%;
+	background-color:#f3f3f3;
+	background-repeat:repat;
+	margin-top:150px;
+}
+#zakazite-termin-sadrzaj{
+	width:100%;
+	padding:20px 0 40px 0;
+}
+#zakazite-termin-sadrzaj>a>#polje>p:hover{
+	color:#fff;
+}
+#zakazite-termin-sadrzaj>h2{
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	color:#daa45f;
+	font-size:40px;
+}
+#polje{
+	margin:0 auto;
+	width:250px;
+	background-color:rgb(245, 234, 201);
+	 transition-property: width height;
+	transition-duration: 1s;
+}
+#polje:hover{
+	width:320px;
+	height:120;
+}
+#polje>p{
+	text-align:center;
+	margin-top:40px;
+	font-size:35px;
+	font-weight:bold;
+	color:#daa45f;
+}
+/*FUTER---------------------------------------------------------------------------------------*/
+footer{
+	margin-top:250px;
+	width:100%;
+	padding:1px 0 150px 0;
+	background-color:#f5e8c7;	
+	
+}
+#akcija, #kontaktirajte-nas, #povezimo-se{
+	float:left;
+	margin-left:4%;
+	height:250px;
+	width:28%;
+}
+i{
+	font-size:30px;
+}
+#akcija>h3, #kontaktirajte-nas>h3, #povezimo-se>h3{
+	font-family: 'Dancing Script', cursive;
+	font-size:35px;
+	text-align:center;
+	color:#daa45f;
+	margin-top:24px;
+}
+#povezimo-se>h3{
+	margin-top:15px;
+}
+#akcija>ul, #kontaktirajte-nas>ul, #povezimo-se>ul{
+	margin-top:20px;
+}
+#akcija>ul>a>li:hover, #kontaktirajte-nas>ul>a>li:hover, #povezimo-se>ul>a>li:hover{
+	color:#daa45f;
+}
+#akcija>ul>a>li, #kontaktirajte-nas>ul>a>li, #povezimo-se>ul>a>li{
+	font-size:20px;
+	margin-top:20px;
+	border-bottom:1px dashed;
+	text-align:center;
+	color:#c2c2c2;
+}
+/*TRETMANI--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#cover2{
+background-image:url(../img/masaza-cover.jpg);
+background-size:100%;
+width:100%;
+height:650px;
+background-position:0px;
+}
+#usluge>h1{
+	color:#daa45f;
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	font-size:80px;
+	margin:0px 0 80px 0;
+}
+details{
+	margin-bottom:50px;
+	color:black;
+}
+details>p, summary{
+	color:#a0743c;
+	font-size:22px;
+}
+details>p{
+	background-color:#e8c699;
+	text-align:left;
+	letter-spacing:1px;
+	border:1px solid #a0743c;
+	padding:2px;
+}
+summary{
+	padding:20px;
+	background-color:rgba(245, 234, 201,0.95);
+	font-weight:bold;
+	box-shadow: 8px 2px 2px #a0743c;
+	cursor:pointer;
+}
+#put-ka-cenovniku{
+	width:100%;
+	background-image:url(../img/onama-background.png);
+	padding:70px 0 70px 0;
+	margin:180px 0 100px 0;
+	text-align:center;
+}
+#put-ka-cenovniku>a>p{
+	text-align:center;
+	color:white;
+	font-family:'Dancing Script', cursive;
+	font-size:50px;
+	border-bottom:2px dashed #fff;
+}
+#put-ka-cenovniku>a>p:hover{
+	color:#daa45f;
+	border-bottom:2px dashed #daa45f;
+}
+/*CENOVNIK*/
+.popust-cenovnik{
+	margin-top:0px;
+}
+#cenovnik-tabela{
+	margin-top:200px;
+	width:100%;
+	padding:20px;
+	border:4px solid #daa45f;
+	border-radius:5px;
+	background-color:rgba(245, 234, 201,0.97);
+}
+.cenovnik-tr>td, .cenovnik-tr>th{
+	border:2px solid #daa45f;
+	font-size:25px;
+	padding:20px 0 20px 0;
+	background-color:#afa288;
+	color:white;
+}
+.cenovnik-tr>td{
+	padding:35px 0px 5px 3px;
+}
+.cenovnik-tr>td:first-child{
+	width:60%;
+	font-size:35px;
+}
+.cenovnik-tr>th{
+	font-family: 'Dancing Script', cursive;
+	font-size:30px;
+}
+/*----KONTAKT----*/
+.ikonice{
+	padding:50px 0px 50px 0px;
+}
+.ikonica1{
+	width:30%;
+	float:left;
+	margin-left:1%;
+	padding:20px 0 20px 0;
+	
+}
+.mrg{
+	margin-left:8%;
+}
+.ikonica1>p{
+	color:#daa45f;
+	float:left;
+	font-size:15px;
+}
+.ikonica1>i{
+	float:left;
+	margin-right:20px;
+	font-size:40px;
+}
+.ikonica1>h6{
+	color:#daa45f;
+	font-size:20px;
+}
+#mapa{
+	width:100%;
+	padding:10px;
+	margin-top:100px;
+}
+#mapa>iframe{
+	margin:0 auto;
+	border-radius:15px;
+}
+#zakazte-tretman>h2{
+	font-size:60px;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+#zakazivanje{
+	margin-top:300px;
+	width:100%;
+	margin:0 auto;
+}
+#forma{
+	float:left;
+	width:40%;
+	height:500px;
+	padding:50px;
+	margin-left:0%;
+	background-color:#d7cfbd;
+	border-radius:15px 0px 0px 15px;
+}
+#slika{
+	height:600px;
+	width:50%;
+	float:left;
+	background-image:url(../img/14.jpg);	
+	background-position:0px 0px;
+
+	background-color:#daa45f;
+	border-radius:0 15px 15px 0;
+}
+input{
+	border:none;
+	font-size:20px;
+	width:90%;
+	padding:10px;
+	margin:0px 0 20px 0px;
+}
+input:focus{
+	box-shadow:2px 2px 2px 2px black;
+}
+input[type=text],[type=email]{
+	padding-left:20px;
+}
+label{
+	font-size:20px;
+}
+.dugme{
+	border-radius:15px;
+	width:25%;
+	float:left;
+	margin-left:15%;
+}
+/*ONAMA*/
+#onama-flex{
+	display:flex;
+	justify-content:center;
+}
+#onama-text1{
+	 /* column-count: 1;
+	  column-gap: 40px;
+	  column-rule-style: dotted;*/
+	  margin-top:30px;
+	  
+}
+#onama-text2{
+
+}
+#onama-text1>p, #onama-text2>p{
+	font-size:23px;
+	color:#daa45f;
+	text-align:left;
+}
+#onama-slika{
+	margin-left:35px;
+}
+#onama-slika>img{
+	width:450px;
+}
+p>span{
+	font-weight:bold;
+}
+	 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
